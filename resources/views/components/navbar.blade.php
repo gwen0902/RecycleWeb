@@ -31,7 +31,7 @@
             </div>
             <!-- 2 Buttons -->
             <div class="hidden md:flex items-center space-x-2">
-                <a href="/login" class="px-4 py-2 rounded-md bg-white text-green-700 font-semibold hover:bg-green-100 transition
+                <a href="/admin/login" class="px-4 py-2 rounded-md bg-white text-green-700 font-semibold hover:bg-green-100 transition
                     {{ Request::is('login') ? 'ring-2 ring-white' : '' }}">
                     Sign In
                 </a>
